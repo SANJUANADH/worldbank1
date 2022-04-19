@@ -10,6 +10,6 @@ hide_table_row_index = """
             .blank{display:none}
             </style>
             """
-
+st.markdown(hide_dataframe_row_index, unsafe_allow_htm1=True)
 st.table(India)                  
 
