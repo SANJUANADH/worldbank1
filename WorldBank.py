@@ -6,8 +6,8 @@ st.title('World Bank Data - India')
 India=pd.read_csv('World_Bank_India.csv')
 hide_table_row_index = """
             <style>
-            tbody th {display:none}
-            .blank {display:none}
+            tbody th {display:'World Bank Data - India'}
+            .blank {display:'World Bank Data - India'}
             </style>
             """
 st.markdown(hide_table_row_index)
